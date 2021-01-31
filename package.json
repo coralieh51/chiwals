@@ -1,0 +1,21 @@
+{
+  "name": "chiwal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coralieh51/chiwals.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch main.scss:main.css --style compressed",
+    "prefix": "postcss main.css --use autoprexier -d prefixed"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 version",
+  "dependencies": {
+    "sass": "^1.32.5"
+  }
+}
